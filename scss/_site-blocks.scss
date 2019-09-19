@@ -585,7 +585,7 @@
       right: 0;
       bottom: 0;
       opacity: .1; // background: rgba(0,196,255,1);
-      background: $black;
+      background: rgba($black, .1);
     }
     h1 {
       color: $white;
@@ -1308,7 +1308,5 @@ form {
       opacity: 0.1;
       visibility: visible;
     }
-
   }
-  
 }
